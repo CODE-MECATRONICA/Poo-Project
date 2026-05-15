@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Polimorfismo</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
 
+<main>
+
+<h1>Polimorfismo</h1>
+
+<p>
+El polimorfismo permite que un método tenga diferentes
+comportamientos dependiendo del objeto.
+</p>
+
+<h2>Ejemplo 1</h2>
+
+<pre>
+class Animal{
+    void sonido(){
+        System.out.println("Sonido");
+    }
+}
+
+class Gato extends Animal{
+    void sonido(){
+        System.out.println("Miau");
+    }
+}
+</pre>
+
+<h2>Ejemplo 2</h2>
+
+<pre>
+Animal a = new Gato();
+a.sonido();
+</pre>
+
+<h2>Ejercicios</h2>
+
+<ul>
+<li>Crear una clase Figura con método area().</li>
+<li>Implementar sobrescritura de métodos.</li>
+</ul>
+
+<a href="../index.html">Volver al inicio</a>
+
+</main>
+
+</body>
+</html>
+</main>
+
+</body>
+</html>
