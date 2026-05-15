@@ -1,1 +1,58 @@
+<!-- temas/herencia.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Herencia</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
 
+<main>
+
+<h1>Herencia en Java</h1>
+
+<p>
+La herencia permite que una clase herede atributos y métodos
+de otra clase. Esto ayuda a reutilizar código.
+</p>
+
+<h2>Ejemplo 1</h2>
+
+<pre>
+class Animal{
+    void sonido(){
+        System.out.println("Sonido");
+    }
+}
+
+class Perro extends Animal{
+
+}
+</pre>
+
+<h2>Ejemplo 2</h2>
+
+<pre>
+class Persona{
+    String nombre;
+}
+
+class Estudiante extends Persona{
+    int semestre;
+}
+</pre>
+
+<h2>Ejercicios</h2>
+
+<ul>
+<li>Crear una clase Vehiculo y una clase Moto.</li>
+<li>Usar super() en un constructor.</li>
+</ul>
+
+<a href="../index.html">Volver al inicio</a>
+
+</main>
+
+</body>
+</html>
