@@ -9,35 +9,73 @@
 
 <main>
 
-<h1>Manejo de Excepciones</h1>
+<h1>Manejo de Errores y Excepciones</h1>
 
 <p>
-Las excepciones permiten manejar errores durante la ejecución
-del programa.
+Las excepciones permiten detectar y controlar errores
+durante la ejecución de un programa.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+Java utiliza estructuras como try, catch, throw,
+throws y finally para manejar errores.
+</p>
+
+<hr>
+
+<h2>try y catch</h2>
+
+<h3>Ejemplo 1</h3>
 
 <pre>
 try{
-    int a = 5/0;
+
 }catch(Exception e){
-    System.out.println("Error");
+
 }
 </pre>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 2</h3>
 
 <pre>
-throw new Exception("Error");
+catch(ArithmeticException e){
+
+}
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejercicios</h3>
 
 <ul>
 <li>Crear un bloque try-catch.</li>
-<li>Investigar finally y throws.</li>
+<li>Manejar una división entre cero.</li>
 </ul>
+
+<hr>
+
+<h2>throw, throws y finally</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+throw new Exception();
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+finally{
+
+}
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Usar throw en un método.</li>
+<li>Agregar finally a un programa.</li>
+</ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
