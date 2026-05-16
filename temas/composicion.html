@@ -13,10 +13,19 @@
 
 <p>
 La composición ocurre cuando una clase contiene objetos
-de otra clase como parte de su estructura.
+de otra clase dentro de su estructura.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+La modularización divide el programa en partes más pequeñas
+para mejorar la organización y mantenimiento del código.
+</p>
+
+<hr>
+
+<h2>Composición</h2>
+
+<h3>Ejemplo 1</h3>
 
 <pre>
 class Motor{
@@ -24,11 +33,11 @@ class Motor{
 }
 
 class Carro{
-    Motor motor = new Motor();
+    Motor motor;
 }
 </pre>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 2</h3>
 
 <pre>
 class Universidad{
@@ -36,12 +45,37 @@ class Universidad{
 }
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejercicios</h3>
 
 <ul>
-<li>Relacionar una clase Libro con Autor.</li>
+<li>Relacionar Libro con Autor.</li>
 <li>Crear una clase Computador con Procesador.</li>
 </ul>
+
+<hr>
+
+<h2>Modularización</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+package modelos;
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+package servicios;
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Separar clases en paquetes.</li>
+<li>Organizar un proyecto en módulos.</li>
+</ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
