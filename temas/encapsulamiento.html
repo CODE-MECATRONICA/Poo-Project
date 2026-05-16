@@ -9,33 +9,95 @@
 
 <main>
 
-<h1>Encapsulamiento</h1>
+<h1>Atributos, Métodos y Encapsulamiento</h1>
 
 <p>
-El encapsulamiento protege los datos de una clase
-utilizando modificadores de acceso.
+Los atributos almacenan información y los métodos representan
+acciones dentro de una clase. El encapsulamiento protege los
+datos utilizando modificadores de acceso.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+Los getters y setters permiten acceder y modificar atributos
+de manera controlada.
+</p>
+
+<hr>
+
+<h2>Atributos</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+String nombre;
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+int edad;
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Crear atributos para una clase Libro.</li>
+<li>Agregar atributos a una clase Animal.</li>
+</ul>
+
+<hr>
+
+<h2>Métodos</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+void saludar(){
+
+}
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+void correr(){
+
+}
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Crear un método mostrarDatos().</li>
+<li>Crear un método calcular().</li>
+</ul>
+
+<hr>
+
+<h2>Encapsulamiento</h2>
+
+<h3>Ejemplo 1</h3>
 
 <pre>
 private String nombre;
 </pre>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 2</h3>
 
 <pre>
-public void setNombre(String nombre){
-    this.nombre = nombre;
+public String getNombre(){
+    return nombre;
 }
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejercicios</h3>
 
 <ul>
-<li>Crear getters y setters para una clase.</li>
-<li>Investigar modificadores de acceso.</li>
+<li>Crear getters y setters.</li>
+<li>Usar private en atributos.</li>
 </ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
