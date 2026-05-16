@@ -12,32 +12,66 @@
 <h1>Clases Abstractas e Interfaces</h1>
 
 <p>
-Las clases abstractas sirven como base para otras clases.
-Las interfaces definen comportamientos obligatorios.
+Las clases abstractas sirven como base para otras clases
+y no pueden crear objetos directamente.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+Las interfaces permiten definir comportamientos que otras
+clases deben implementar.
+</p>
+
+<hr>
+
+<h2>Clases Abstractas</h2>
+
+<h3>Ejemplo 1</h3>
 
 <pre>
 abstract class Figura{
-    abstract void area();
+
 }
 </pre>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 2</h3>
 
 <pre>
-interface Animal{
-    void sonido();
+abstract void calcularArea();
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Crear una clase abstracta Animal.</li>
+<li>Definir un método abstracto.</li>
+</ul>
+
+<hr>
+
+<h2>Interfaces</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+interface Vehiculo{
+
 }
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejemplo 2</h3>
+
+<pre>
+void acelerar();
+</pre>
+
+<h3>Ejercicios</h3>
 
 <ul>
-<li>Crear una interfaz llamada Vehiculo.</li>
-<li>Crear una clase abstracta Persona.</li>
+<li>Crear una interfaz llamada Figura.</li>
+<li>Implementar una interfaz.</li>
 </ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
