@@ -1,29 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Colecciones</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-
-<main>
-
-<h1>Colecciones y Estructuras de Datos</h1>
-
-<p>
-Las colecciones permiten almacenar grupos de datos
-de manera dinámica y organizada.
-</p>
-
-<p>
-Java incluye estructuras como List, Map y Set
-para diferentes necesidades.
-</p>
-
-<hr>
-
 <h2>List</h2>
+
+<p>
+List permite almacenar elementos de forma ordenada
+y repetida dentro de una colección.
+</p>
+
+<p>
+Una de las implementaciones más utilizadas es ArrayList.
+</p>
 
 <h3>Ejemplo 1</h3>
 
@@ -46,7 +30,16 @@ lista.add("Juan");
 
 <hr>
 
-<h2>Map y Set</h2>
+<h2>Map</h2>
+
+<p>
+Map almacena datos mediante claves y valores.
+</p>
+
+<p>
+Permite acceder rápidamente a la información utilizando
+una clave específica.
+</p>
 
 <h3>Ejemplo 1</h3>
 
@@ -57,21 +50,43 @@ HashMap<Integer,String> mapa;
 <h3>Ejemplo 2</h3>
 
 <pre>
-HashSet<String> datos;
+mapa.put(1,"Carlos");
 </pre>
 
 <h3>Ejercicios</h3>
 
 <ul>
-<li>Usar un HashMap.</li>
-<li>Crear un HashSet.</li>
+<li>Crear un HashMap.</li>
+<li>Guardar datos usando claves.</li>
 </ul>
 
-<br>
+<hr>
 
-<a href="../index.html">Volver al inicio</a>
+<h2>Set</h2>
 
-</main>
+<p>
+Set almacena elementos sin permitir valores repetidos.
+</p>
 
-</body>
-</html>
+<p>
+Es útil cuando se necesita trabajar con datos únicos.
+</p>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+HashSet<String> datos;
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+datos.add("Java");
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Crear un HashSet.</li>
+<li>Agregar datos sin repetir.</li>
+</ul>
