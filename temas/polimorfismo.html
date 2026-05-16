@@ -9,49 +9,70 @@
 
 <main>
 
-<h1>Polimorfismo</h1>
+<h1>Polimorfismo y Sobreescritura</h1>
 
 <p>
 El polimorfismo permite que un método tenga diferentes
-comportamientos dependiendo del objeto.
+comportamientos dependiendo del objeto que lo utilice.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+La sobreescritura de métodos permite modificar el
+comportamiento heredado de una clase padre.
+</p>
 
-<pre>
-class Animal{
-    void sonido(){
-        System.out.println("Sonido");
-    }
-}
+<hr>
 
-class Gato extends Animal{
-    void sonido(){
-        System.out.println("Miau");
-    }
-}
-</pre>
+<h2>Polimorfismo</h2>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 1</h3>
 
 <pre>
 Animal a = new Gato();
-a.sonido();
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejemplo 2</h3>
+
+<pre>
+Animal a = new Perro();
+</pre>
+
+<h3>Ejercicios</h3>
 
 <ul>
-<li>Crear una clase Figura con método area().</li>
-<li>Implementar sobrescritura de métodos.</li>
+<li>Aplicar polimorfismo en animales.</li>
+<li>Crear una clase Figura.</li>
 </ul>
+
+<hr>
+
+<h2>Sobreescritura</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+@Override
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+void sonido(){
+
+}
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Sobrescribir un método heredado.</li>
+<li>Modificar un método de una clase padre.</li>
+</ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
-</main>
-
-</body>
-</html>
 </main>
 
 </body>
