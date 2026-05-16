@@ -12,29 +12,62 @@
 <h1>Lectura y Escritura de Archivos</h1>
 
 <p>
-Java permite leer y escribir archivos utilizando clases
-como FileReader y BufferedReader.
+Java permite trabajar con archivos para guardar y leer
+información dentro de una aplicación.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+Las clases FileReader, BufferedReader y FileWriter
+facilitan el manejo de archivos .txt y .csv.
+</p>
+
+<hr>
+
+<h2>Lectura de Archivos</h2>
+
+<h3>Ejemplo 1</h3>
 
 <pre>
-FileReader archivo = new FileReader("datos.txt");
+FileReader archivo;
 </pre>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 2</h3>
 
 <pre>
-BufferedReader lector =
-new BufferedReader(archivo);
+BufferedReader lector;
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejercicios</h3>
 
 <ul>
 <li>Leer un archivo .txt.</li>
-<li>Crear un archivo .csv.</li>
+<li>Mostrar datos desde un archivo.</li>
 </ul>
+
+<hr>
+
+<h2>Escritura de Archivos</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+FileWriter escritor;
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+escritor.write("Hola");
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Crear un archivo .csv.</li>
+<li>Guardar datos en un archivo.</li>
+</ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
