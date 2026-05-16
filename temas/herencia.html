@@ -13,16 +13,24 @@
 
 <p>
 La herencia permite que una clase herede atributos y métodos
-de otra clase. Esto ayuda a reutilizar código.
+de otra clase. Esto ayuda a reutilizar código y organizar
+mejor los programas.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+En Java se utiliza la palabra extends y el método super()
+para trabajar con herencia.
+</p>
+
+<hr>
+
+<h2>Herencia</h2>
+
+<h3>Ejemplo 1</h3>
 
 <pre>
 class Animal{
-    void sonido(){
-        System.out.println("Sonido");
-    }
+
 }
 
 class Perro extends Animal{
@@ -30,24 +38,49 @@ class Perro extends Animal{
 }
 </pre>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 2</h3>
 
 <pre>
 class Persona{
-    String nombre;
+
 }
 
 class Estudiante extends Persona{
-    int semestre;
+
 }
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejercicios</h3>
 
 <ul>
 <li>Crear una clase Vehiculo y una clase Moto.</li>
-<li>Usar super() en un constructor.</li>
+<li>Heredar atributos de otra clase.</li>
 </ul>
+
+<hr>
+
+<h2>Uso de super()</h2>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+super(nombre);
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+super();
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Usar super() en un constructor.</li>
+<li>Llamar métodos de la clase padre.</li>
+</ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
