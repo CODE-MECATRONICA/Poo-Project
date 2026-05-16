@@ -1,30 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Encapsulamiento</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-
-<main>
-
-<h1>Atributos, Métodos y Encapsulamiento</h1>
-
-<p>
-Los atributos almacenan información y los métodos representan
-acciones dentro de una clase. El encapsulamiento protege los
-datos utilizando modificadores de acceso.
-</p>
-
-<p>
-Los getters y setters permiten acceder y modificar atributos
-de manera controlada.
-</p>
-
-<hr>
-
 <h2>Atributos</h2>
+
+<p>
+Los atributos almacenan información de un objeto.
+</p>
 
 <h3>Ejemplo 1</h3>
 
@@ -48,6 +26,10 @@ int edad;
 <hr>
 
 <h2>Métodos</h2>
+
+<p>
+Los métodos representan acciones dentro de una clase.
+</p>
 
 <h3>Ejemplo 1</h3>
 
@@ -74,19 +56,30 @@ void correr(){
 
 <hr>
 
-<h2>Encapsulamiento</h2>
+<h2>Getters y Setters</h2>
+
+<p>
+Los getters y setters permiten acceder y modificar
+atributos privados.
+</p>
 
 <h3>Ejemplo 1</h3>
 
 <pre>
-private String nombre;
+public String getNombre(){
+
+    return nombre;
+
+}
 </pre>
 
 <h3>Ejemplo 2</h3>
 
 <pre>
-public String getNombre(){
-    return nombre;
+public void setNombre(String nombre){
+
+    this.nombre = nombre;
+
 }
 </pre>
 
@@ -94,14 +87,5 @@ public String getNombre(){
 
 <ul>
 <li>Crear getters y setters.</li>
-<li>Usar private en atributos.</li>
+<li>Usar atributos private.</li>
 </ul>
-
-<br>
-
-<a href="../index.html">Volver al inicio</a>
-
-</main>
-
-</body>
-</html>
