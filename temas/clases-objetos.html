@@ -12,30 +12,91 @@
 <h1>Clases y Objetos en Java</h1>
 
 <p>
-Las clases son plantillas que permiten crear objetos.
-Los objetos representan entidades con atributos y métodos.
+Las clases son plantillas que permiten definir las características
+y comportamientos de un objeto. En ellas se establecen atributos
+y métodos que representan una entidad dentro del programa.
 </p>
 
-<h2>Ejemplo 1</h2>
+<p>
+Los objetos son instancias creadas a partir de una clase.
+Gracias a ellos es posible utilizar la información y los
+métodos definidos previamente.
+</p>
+
+<hr>
+
+<h2>Clase</h2>
+
+<p>
+Una clase organiza información y comportamientos relacionados.
+Sirve como base para crear múltiples objetos.
+</p>
+
+<h3>Ejemplo 1</h3>
 
 <pre>
-class Carro{
-    String marca;
+class Persona{
+
+    String nombre;
+    int edad;
+
 }
 </pre>
 
-<h2>Ejemplo 2</h2>
+<h3>Ejemplo 2</h3>
 
 <pre>
-Carro c = new Carro();
+class Carro{
+
+    String marca;
+
+    void encender(){
+        System.out.println("Carro encendido");
+    }
+
+}
 </pre>
 
-<h2>Ejercicios</h2>
+<h3>Ejercicios</h3>
 
 <ul>
 <li>Crear una clase llamada Animal.</li>
-<li>Crear un objeto tipo Computador.</li>
+<li>Crear una clase llamada Computador.</li>
 </ul>
+
+<hr>
+
+<h2>Objeto</h2>
+
+<p>
+Un objeto es la representación real de una clase.
+Cada objeto puede almacenar datos diferentes.
+</p>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+Persona persona1 = new Persona();
+
+persona1.nombre = "Carlos";
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+Carro carro1 = new Carro();
+
+carro1.encender();
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+<li>Crear un objeto tipo Estudiante.</li>
+<li>Crear dos objetos de una misma clase.</li>
+</ul>
+
+<br>
 
 <a href="../index.html">Volver al inicio</a>
 
