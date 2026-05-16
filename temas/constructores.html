@@ -1,38 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Constructores</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-
-<main>
-
-<h1>Constructores y Representación de Objetos</h1>
-
-<p>
-Los constructores son métodos especiales que se ejecutan
-automáticamente cuando se crea un objeto. Su función es
-inicializar atributos y preparar el objeto para ser utilizado.
-</p>
-
-<p>
-Los constructores tienen el mismo nombre de la clase y no
-poseen tipo de retorno. Además, pueden recibir parámetros
-para asignar valores iniciales a los atributos.
-</p>
-
-<p>
-El método toString() permite representar un objeto en forma
-de texto, facilitando mostrar la información de manera más
-clara y organizada dentro del programa.
-</p>
-
-
-<hr>
-
 <h2>Constructores</h2>
+
+<p>
+Los constructores inicializan objetos al momento
+de crearlos.
+</p>
 
 <h3>Ejemplo 1</h3>
 
@@ -41,7 +12,6 @@ public Persona(){
 
 }
 </pre>
-
 
 <h3>Ejemplo 2</h3>
 
@@ -62,10 +32,16 @@ public Persona(String nombre){
 
 <h2>toString()</h2>
 
+<p>
+El método toString() convierte un objeto en texto.
+</p>
+
 <h3>Ejemplo 1</h3>
 
 <pre>
 public String toString(){
+
+    return nombre;
 
 }
 </pre>
@@ -82,12 +58,3 @@ System.out.println(persona);
 <li>Implementar toString().</li>
 <li>Mostrar datos de un objeto.</li>
 </ul>
-
-<br>
-
-<a href="../index.html">Volver al inicio</a>
-
-</main>
-
-</body>
-</html>
