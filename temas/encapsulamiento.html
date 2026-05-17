@@ -1,6 +1,216 @@
 <h2>Atributos</h2>
 
+<p><!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Encapsulamiento</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<main>
+
+<h1>Atributos, Métodos y Encapsulamiento</h1>
+
 <p>
+Los atributos almacenan información y los métodos
+representan acciones dentro de una clase.
+</p>
+
+<p>
+El encapsulamiento es un principio de la Programación
+Orientada a Objetos que protege los datos utilizando
+modificadores de acceso.
+</p>
+
+<hr>
+
+<h2>Atributos</h2>
+
+<p>
+Los atributos representan las características o datos
+de un objeto dentro de una clase.
+</p>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+String nombre;
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+int edad;
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+
+<li>Crear atributos para una clase Libro.</li>
+
+<li>Agregar atributos a una clase Animal.</li>
+
+</ul>
+
+<hr>
+
+<h2>Métodos</h2>
+
+<p>
+Los métodos permiten realizar acciones y comportamientos
+dentro de una clase.
+</p>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+void saludar(){
+
+}
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+void correr(){
+
+}
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+
+<li>Crear un método mostrarDatos().</li>
+
+<li>Crear un método calcular().</li>
+
+</ul>
+
+<hr>
+
+<h2>Encapsulamiento</h2>
+
+<p>
+El encapsulamiento consiste en proteger los atributos
+de una clase para evitar el acceso directo desde otras
+partes del programa.
+</p>
+
+<p>
+Para lograrlo se utilizan modificadores de acceso como
+private y métodos especiales llamados getters y setters.
+</p>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+private String nombre;
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+private int edad;
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+
+<li>Usar private en los atributos.</li>
+
+<li>Proteger datos de una clase.</li>
+
+</ul>
+
+<hr>
+
+<h2>Getters y Setters</h2>
+
+<p>
+Los getters permiten obtener el valor de un atributo
+privado y los setters permiten modificarlo de forma
+controlada.
+</p>
+
+<p>
+Estos métodos ayudan a mantener la seguridad y el
+control de la información.
+</p>
+
+<h3>Ejemplo 1</h3>
+
+<pre>
+public String getNombre(){
+
+    return nombre;
+
+}
+</pre>
+
+<h3>Ejemplo 2</h3>
+
+<pre>
+public void setNombre(String nombre){
+
+    this.nombre = nombre;
+
+}
+</pre>
+
+<h3>Ejemplo Completo</h3>
+
+<pre>
+class Persona{
+
+    private String nombre;
+
+    public String getNombre(){
+
+        return nombre;
+
+    }
+
+    public void setNombre(String nombre){
+
+        this.nombre = nombre;
+
+    }
+
+}
+</pre>
+
+<h3>Ejercicios</h3>
+
+<ul>
+
+<li>Crear getters y setters para una clase Libro.</li>
+
+<li>Aplicar encapsulamiento en una clase.</li>
+
+</ul>
+
+<a href="../index.html">
+
+Volver al inicio
+
+</a>
+
+</main>
+
+</body>
+</html>
 Los atributos almacenan información de un objeto.
 </p>
 
